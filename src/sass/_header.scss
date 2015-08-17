@@ -19,8 +19,7 @@
 		.current-item a {
 			color: $white !important;
 		}
-		.sub-menu,
-		.menu {
+		.sub-menu {
 			background-color: $black !important;
 
 			li.current-menu-item, 
@@ -34,4 +33,21 @@
 
 		}
 	}
+
+	@media (max-width: 768px) {
+
+		nav.nav-global {
+			a,
+			.current-item a {
+				color: $text-color !important;
+
+				&:hover,
+				&:focus {
+					color: $white !important;
+				}
+			}
+		}
+
+	}
+
 }

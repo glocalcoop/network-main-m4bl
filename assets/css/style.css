@@ -4,6 +4,11 @@
   font-weight: normal;
   font-style: normal; }
 
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
 button,
 .button,
 .sidebar .widget_search #searchsubmit,
@@ -41,16 +46,21 @@ a:link {
   .header-global nav.nav-global a,
   .header-global nav.nav-global .current-item a {
     color: #fff !important; }
-  .header-global nav.nav-global .sub-menu,
-  .header-global nav.nav-global .menu {
+  .header-global nav.nav-global .sub-menu {
     background-color: #000 !important; }
     .header-global nav.nav-global .sub-menu li.current-menu-item:after,
     .header-global nav.nav-global .sub-menu li.current_page_item:after,
-    .header-global nav.nav-global .sub-menu li.current-page-ancestor:after,
-    .header-global nav.nav-global .menu li.current-menu-item:after,
-    .header-global nav.nav-global .menu li.current_page_item:after,
-    .header-global nav.nav-global .menu li.current-page-ancestor:after {
+    .header-global nav.nav-global .sub-menu li.current-page-ancestor:after {
       border-bottom-color: #ffbf00; }
+  @media (max-width: 768px) {
+    .header-global nav.nav-global a,
+    .header-global nav.nav-global .current-item a {
+      color: #4c4c4c !important; }
+      .header-global nav.nav-global a:hover,
+      .header-global nav.nav-global a:focus,
+      .header-global nav.nav-global .current-item a:hover,
+      .header-global nav.nav-global .current-item a:focus {
+        color: #fff !important; } }
 
 html,
 body {
