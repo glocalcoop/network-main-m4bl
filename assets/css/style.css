@@ -113,19 +113,19 @@ h4 {
   color: #ffbf00 !important; }
 
 .home-modules .network-sites-list .sites-list li,
-.home-modules .widget_glocal_network_posts_widget .sites-list li {
+.home-modules .widget_glocal_network_sites_widget .sites-list li {
   background-color: #000 !important;
   color: #ffbf00; }
   .home-modules .network-sites-list .sites-list li a,
-  .home-modules .widget_glocal_network_posts_widget .sites-list li a {
+  .home-modules .widget_glocal_network_sites_widget .sites-list li a {
     color: #ffbf00 !important; }
 
 .home-modules .network-sites-list .sites-list.no-site-image li,
-.home-modules .widget_glocal_network_posts_widget .sites-list.no-site-image li {
+.home-modules .widget_glocal_network_sites_widget .sites-list.no-site-image li {
   background-color: #000 !important;
   color: #ffbf00; }
   .home-modules .network-sites-list .sites-list.no-site-image li a,
-  .home-modules .widget_glocal_network_posts_widget .sites-list.no-site-image li a {
+  .home-modules .widget_glocal_network_sites_widget .sites-list.no-site-image li a {
     color: #ffbf00 !important; }
 
 .home-modules .widget_em_widget li {
