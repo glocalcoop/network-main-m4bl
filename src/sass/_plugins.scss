@@ -12,11 +12,21 @@
 
 // Network Sites
 
+.home .sites-list.no-site-image li
+
 .home {
 
 	.widget_glocal_network_sites_widget {
 
 		.sites-list li {
+			background-color: $black !important;
+			color: $brand-primary;
+
+			a {
+				color: $brand-primary !important;
+			}
+		}
+		.sites-list.no-site-image li {
 			background-color: $black !important;
 			color: $brand-primary;
 
@@ -65,5 +75,3 @@ div.css-search div.em-search-main .em-search-submit {
 		background-color: $black;
 	}
 }
-
-

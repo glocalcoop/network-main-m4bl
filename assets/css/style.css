@@ -112,21 +112,35 @@ h4 {
 .bx-wrapper .bx-controls-direction a {
   color: #ffbf00 !important; }
 
+.home .sites-list.no-site-image li
 .home .widget_glocal_network_sites_widget .sites-list li {
   background-color: #000 !important;
   color: #ffbf00; }
-  .home .widget_glocal_network_sites_widget .sites-list li a {
+  .home .sites-list.no-site-image li
+.home .widget_glocal_network_sites_widget .sites-list li a {
     color: #ffbf00 !important; }
 
+.home .sites-list.no-site-image li
+.home .widget_glocal_network_sites_widget .sites-list.no-site-image li {
+  background-color: #000 !important;
+  color: #ffbf00; }
+  .home .sites-list.no-site-image li
+.home .widget_glocal_network_sites_widget .sites-list.no-site-image li a {
+    color: #ffbf00 !important; }
+
+.home .sites-list.no-site-image li
 .home .widget_em_widget li {
   background-color: #000 !important;
   color: #ffbf00; }
-  .home .widget_em_widget li a {
+  .home .sites-list.no-site-image li
+.home .widget_em_widget li a {
     color: #ffbf00 !important; }
 
+.home .sites-list.no-site-image li
 .home .widget_glocal_network_posts_widget li {
   background-color: #e5e5e5; }
 
+.home .sites-list.no-site-image li
 .home .widget_glocal_network_post_highlights_widget h2 {
   color: #4c4c4c; }
 
