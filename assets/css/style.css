@@ -9,7 +9,7 @@
   display: table;
   clear: both; }
 
-.home-modules .highlights:after {
+.home-modules #highlights-module:after {
   content: "";
   display: table;
   clear: both; }
