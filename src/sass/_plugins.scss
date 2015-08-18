@@ -18,6 +18,10 @@
 		font-size: 2.25rem;
 	}
 
+	.highlights {
+		@extend %clearfix;
+	}
+
 	.network-sites-list,
 	.widget_glocal_network_sites_widget {
 

@@ -9,6 +9,11 @@
   display: table;
   clear: both; }
 
+.home-modules .highlights:after {
+  content: "";
+  display: table;
+  clear: both; }
+
 button,
 .button,
 .sidebar .widget_search #searchsubmit,
